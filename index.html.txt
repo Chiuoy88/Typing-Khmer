@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+  <meta charset="UTF-8">
+  <title>Khmer Typing Test</title>
+
+  <!-- Khmer Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Typing Test ខ្មែរ</h1>
+
+    <div class="text-box" id="testText">
+      ការអប់រំគឺជាគ្រឹះសម្រាប់ការអភិវឌ្ឍសង្គម និងអនាគតប្រទេសជាតិ។
+    </div>
+
+    <textarea id="inputText" placeholder="ចាប់ផ្តើមវាយនៅទីនេះ..."></textarea>
+
+    <div class="info">
+      <div>⏱ ពេលវេលា: <span id="time">60</span>s</div>
+      <div>⚡ ល្បឿន: <span id="speed">0</span> CPM</div>
+    </div>
+
+    <button onclick="restartTest()">ចាប់ផ្តើមថ្មី</button>
+  </div>
+
+  <!-- Link JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
